@@ -25,9 +25,9 @@ class DiscoverViewController: UIViewController {
 
         //collectionView
         restoCollectionView.dataSource = self
-        restoCollectionView.delegate=self
-        restoCollectionView.collectionViewLayout = UICollectionViewFlowLayout()
-        
+        restoCollectionView.delegate = self
+        restoCollectionView.collectionViewLayout  = UICollectionViewFlowLayout()
+        restoCollectionView!.contentInset = UIEdgeInsets(top: 10, left: 30, bottom: 30, right: 30)
         
         navigationItem.rightBarButtonItem=rightBarButtonItem
         navigationItem.searchController=searchController
@@ -87,7 +87,7 @@ extension DiscoverViewController: UICollectionViewDataSource {
 }
 extension DiscoverViewController: UICollectionViewDelegateFlowLayout {
 func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-return CGSize(width: 151, height: 175)
+return CGSize(width: 151, height: 179)
     }
 }
 extension DiscoverViewController: UICollectionViewDelegate {
