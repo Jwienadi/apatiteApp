@@ -1192,11 +1192,6 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="16F-LW-LlO">
-                                <rect key="frame" x="-2" y="-18" width="392" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" name="ApatiteBlue"/>
-                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6sL-Yy-8R5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1240,14 +1235,12 @@
         <!--Discover-->
         <scene sceneID="Vdc-ds-hhn">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CBK-YU-9mC" customClass="DiscoverNavigationController" customModule="Apatite" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="CBK-YU-9mC" customClass="DiscoverNavigationController" customModule="Apatite" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Discover" image="magnifyingglass" catalog="system" id="MNS-RM-BJy"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="28v-76-bfu">
                         <rect key="frame" x="0.0" y="44" width="390" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" name="ApatiteBlue"/>
-                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" name="ApatiteBlue"/>
                         <textAttributes key="largeTitleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
