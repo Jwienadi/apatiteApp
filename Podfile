@@ -6,6 +6,7 @@ target 'Apatite' do
   use_frameworks!
 
   # Pods for Apatite
+  pod 'BonsaiController'
 
   target 'ApatiteTests' do
     inherit! :search_paths

@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		017593B5E3740FE20B25B483 /* Pods_Apatite_ApatiteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2521F86ECC8C42F42C79037B /* Pods_Apatite_ApatiteUITests.framework */; };
+		210E84ED52975EA49350CB7C /* Pods_Apatite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3530C15E4596258C44A2CF11 /* Pods_Apatite.framework */; };
+		481DF3A14E299D9EA88ADCD1 /* Pods_ApatiteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2BFE5274A65CCBD6EFC0E0 /* Pods_ApatiteTests.framework */; };
 		605BED15261D9235002700F4 /* restoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BED14261D9235002700F4 /* restoData.swift */; };
 		6094CE182623D26600A03AE1 /* DiscoverNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6094CE172623D26600A03AE1 /* DiscoverNavigationController.swift */; };
 		60F1B82A261AFFEF0009A53F /* test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F1B829261AFFEF0009A53F /* test.storyboard */; };
@@ -15,6 +18,7 @@
 		60F1B839261D7DB50009A53F /* RestoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F1B838261D7DB50009A53F /* RestoCollectionViewCell.swift */; };
 		60F2371F261EE6C700162C88 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F2371E261EE6C700162C88 /* MenuCollectionViewCell.swift */; };
 		60F23727261EEA2700162C88 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F23726261EEA2700162C88 /* MenuViewController.swift */; };
+		DE4B4AAA2624081F005FF9E1 /* MenuDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B4AA92624081F005FF9E1 /* MenuDetailsViewController.swift */; };
 		DEBA94E026203802007886BB /* SavedPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBA94DF26203802007886BB /* SavedPlaceViewController.swift */; };
 		DEBA94E526203815007886BB /* SavedPlaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBA94E426203814007886BB /* SavedPlaceCollectionViewCell.swift */; };
 		DEBA94F22620397E007886BB /* TransparentNavbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBA94F12620397E007886BB /* TransparentNavbarController.swift */; };
@@ -53,6 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11474E9358044E448B364999 /* Pods-ApatiteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApatiteTests.debug.xcconfig"; path = "Target Support Files/Pods-ApatiteTests/Pods-ApatiteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2521F86ECC8C42F42C79037B /* Pods_Apatite_ApatiteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apatite_ApatiteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3530C15E4596258C44A2CF11 /* Pods_Apatite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apatite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2BFE5274A65CCBD6EFC0E0 /* Pods_ApatiteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApatiteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		605BED14261D9235002700F4 /* restoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restoData.swift; sourceTree = "<group>"; };
 		6094CE172623D26600A03AE1 /* DiscoverNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverNavigationController.swift; sourceTree = "<group>"; };
 		60F1B829261AFFEF0009A53F /* test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = test.storyboard; sourceTree = "<group>"; };
@@ -61,6 +69,11 @@
 		60F1B838261D7DB50009A53F /* RestoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoCollectionViewCell.swift; sourceTree = "<group>"; };
 		60F2371E261EE6C700162C88 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
 		60F23726261EEA2700162C88 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		655F2222B8DF8A7C5E02C95A /* Pods-Apatite-ApatiteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apatite-ApatiteUITests.release.xcconfig"; path = "Target Support Files/Pods-Apatite-ApatiteUITests/Pods-Apatite-ApatiteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		89A3018998F7DE8CE4A828C9 /* Pods-Apatite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apatite.release.xcconfig"; path = "Target Support Files/Pods-Apatite/Pods-Apatite.release.xcconfig"; sourceTree = "<group>"; };
+		AAC1D27B068A66F3B7AE3495 /* Pods-ApatiteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApatiteTests.release.xcconfig"; path = "Target Support Files/Pods-ApatiteTests/Pods-ApatiteTests.release.xcconfig"; sourceTree = "<group>"; };
+		C78430755376C26840520078 /* Pods-Apatite-ApatiteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apatite-ApatiteUITests.debug.xcconfig"; path = "Target Support Files/Pods-Apatite-ApatiteUITests/Pods-Apatite-ApatiteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE4B4AA92624081F005FF9E1 /* MenuDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDetailsViewController.swift; sourceTree = "<group>"; };
 		DEBA94DF26203802007886BB /* SavedPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedPlaceViewController.swift; sourceTree = "<group>"; };
 		DEBA94E426203814007886BB /* SavedPlaceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedPlaceCollectionViewCell.swift; sourceTree = "<group>"; };
 		DEBA94F12620397E007886BB /* TransparentNavbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransparentNavbarController.swift; sourceTree = "<group>"; };
@@ -85,6 +98,7 @@
 		DECD279B261AF53800475A53 /* ApatiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApatiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECD279F261AF53800475A53 /* ApatiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApatiteUITests.swift; sourceTree = "<group>"; };
 		DECD27A1261AF53800475A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE07F8CF56AD53654D1A1D45 /* Pods-Apatite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apatite.debug.xcconfig"; path = "Target Support Files/Pods-Apatite/Pods-Apatite.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210E84ED52975EA49350CB7C /* Pods_Apatite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481DF3A14E299D9EA88ADCD1 /* Pods_ApatiteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,12 +122,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017593B5E3740FE20B25B483 /* Pods_Apatite_ApatiteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0104FD0B63A2F365110BC81F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE07F8CF56AD53654D1A1D45 /* Pods-Apatite.debug.xcconfig */,
+				89A3018998F7DE8CE4A828C9 /* Pods-Apatite.release.xcconfig */,
+				C78430755376C26840520078 /* Pods-Apatite-ApatiteUITests.debug.xcconfig */,
+				655F2222B8DF8A7C5E02C95A /* Pods-Apatite-ApatiteUITests.release.xcconfig */,
+				11474E9358044E448B364999 /* Pods-ApatiteTests.debug.xcconfig */,
+				AAC1D27B068A66F3B7AE3495 /* Pods-ApatiteTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DECD276E261AF53700475A53 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +149,8 @@
 				DECD2793261AF53700475A53 /* ApatiteTests */,
 				DECD279E261AF53800475A53 /* ApatiteUITests */,
 				DECD2778261AF53700475A53 /* Products */,
+				0104FD0B63A2F365110BC81F /* Pods */,
+				F056378114F02FB3EF545215 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,6 +192,7 @@
 				DEBA950226203A06007886BB /* DirectoryQuestController.swift */,
 				DEBA950026203A06007886BB /* DirQuestModel.swift */,
 				DEBA9509262048E9007886BB /* ReviewFormViewController.swift */,
+				DE4B4AA92624081F005FF9E1 /* MenuDetailsViewController.swift */,
 			);
 			path = Apatite;
 			sourceTree = "<group>";
@@ -182,6 +215,16 @@
 			path = ApatiteUITests;
 			sourceTree = "<group>";
 		};
+		F056378114F02FB3EF545215 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3530C15E4596258C44A2CF11 /* Pods_Apatite.framework */,
+				2521F86ECC8C42F42C79037B /* Pods_Apatite_ApatiteUITests.framework */,
+				3A2BFE5274A65CCBD6EFC0E0 /* Pods_ApatiteTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -189,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DECD27A4261AF53800475A53 /* Build configuration list for PBXNativeTarget "Apatite" */;
 			buildPhases = (
+				BC2401788B4820397B554257 /* [CP] Check Pods Manifest.lock */,
 				DECD2773261AF53700475A53 /* Sources */,
 				DECD2774261AF53700475A53 /* Frameworks */,
 				DECD2775261AF53700475A53 /* Resources */,
+				AC7B5F87F30BEB2EFE4C6B40 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -206,6 +251,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DECD27A7261AF53800475A53 /* Build configuration list for PBXNativeTarget "ApatiteTests" */;
 			buildPhases = (
+				D4EB3627EA4CDE996D944D14 /* [CP] Check Pods Manifest.lock */,
 				DECD278C261AF53700475A53 /* Sources */,
 				DECD278D261AF53700475A53 /* Frameworks */,
 				DECD278E261AF53700475A53 /* Resources */,
@@ -224,9 +270,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DECD27AA261AF53800475A53 /* Build configuration list for PBXNativeTarget "ApatiteUITests" */;
 			buildPhases = (
+				D3EE973698CD23F639CBAE37 /* [CP] Check Pods Manifest.lock */,
 				DECD2797261AF53800475A53 /* Sources */,
 				DECD2798261AF53800475A53 /* Frameworks */,
 				DECD2799261AF53800475A53 /* Resources */,
+				22B63F743C9E5E6904019B85 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -308,6 +356,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22B63F743C9E5E6904019B85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Apatite-ApatiteUITests/Pods-Apatite-ApatiteUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Apatite-ApatiteUITests/Pods-Apatite-ApatiteUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Apatite-ApatiteUITests/Pods-Apatite-ApatiteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC7B5F87F30BEB2EFE4C6B40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Apatite/Pods-Apatite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Apatite/Pods-Apatite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Apatite/Pods-Apatite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC2401788B4820397B554257 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Apatite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3EE973698CD23F639CBAE37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Apatite-ApatiteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4EB3627EA4CDE996D944D14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApatiteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DECD2773261AF53700475A53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -331,6 +482,7 @@
 				DEBA94F22620397E007886BB /* TransparentNavbarController.swift in Sources */,
 				DECD277D261AF53700475A53 /* SceneDelegate.swift in Sources */,
 				60F1B82F261B06E30009A53F /* signInViewController.swift in Sources */,
+				DE4B4AAA2624081F005FF9E1 /* MenuDetailsViewController.swift in Sources */,
 				DEBA94E026203802007886BB /* SavedPlaceViewController.swift in Sources */,
 				DEBA94FC262039F2007886BB /* MapsController.swift in Sources */,
 			);
@@ -505,6 +657,7 @@
 		};
 		DECD27A5261AF53800475A53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE07F8CF56AD53654D1A1D45 /* Pods-Apatite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -524,6 +677,7 @@
 		};
 		DECD27A6261AF53800475A53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A3018998F7DE8CE4A828C9 /* Pods-Apatite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -543,6 +697,7 @@
 		};
 		DECD27A8261AF53800475A53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11474E9358044E448B364999 /* Pods-ApatiteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -565,6 +720,7 @@
 		};
 		DECD27A9261AF53800475A53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAC1D27B068A66F3B7AE3495 /* Pods-ApatiteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -587,6 +743,7 @@
 		};
 		DECD27AB261AF53800475A53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C78430755376C26840520078 /* Pods-Apatite-ApatiteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -607,6 +764,7 @@
 		};
 		DECD27AC261AF53800475A53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 655F2222B8DF8A7C5E02C95A /* Pods-Apatite-ApatiteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

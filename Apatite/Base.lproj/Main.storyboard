@@ -1255,51 +1255,48 @@
             </objects>
             <point key="canvasLocation" x="1227.6923076923076" y="-1867.5355450236966"/>
         </scene>
-        <!--View Controller-->
+        <!--Menu Details View Controller-->
         <scene sceneID="CVh-5j-ErH">
             <objects>
-                <viewController id="bCb-yW-VAK" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MenuDetails" id="bCb-yW-VAK" customClass="MenuDetailsViewController" customModule="Apatite" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oTg-pv-lza">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rendang Sapi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csm-bZ-GMa">
-                                <rect key="frame" x="46.666666666666657" y="546.66666666666663" width="297" height="41"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="297" id="Urb-PP-ZfI"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="34"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foodMenu1" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8KQ-29-KcP">
-                                <rect key="frame" x="48.666666666666657" y="248.66666666666663" width="293" height="293"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="293" id="7QB-8l-Bjx"/>
-                                    <constraint firstAttribute="width" constant="293" id="qla-0Q-CbM"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HFF-BE-Gcs">
-                                <rect key="frame" x="46.666666666666657" y="591.66666666666663" width="297" height="28.666666666666629"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="297" id="dGJ-HC-1cG"/>
-                                </constraints>
-                                <string key="text">Beef with special sauce containing a high amount
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="VV4-jw-fvp">
+                                <rect key="frame" x="46.666666666666657" y="209.99999999999997" width="297" height="370.33333333333326"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foodMenu1" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8KQ-29-KcP">
+                                        <rect key="frame" x="0.0" y="0.0" width="297" height="293"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="293" id="7QB-8l-Bjx"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rendang Sapi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csm-bZ-GMa">
+                                        <rect key="frame" x="0.0" y="297" width="297" height="40.666666666666686"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="297" id="Urb-PP-ZfI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="34"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HFF-BE-Gcs">
+                                        <rect key="frame" x="0.0" y="341.66666666666663" width="297" height="28.666666666666686"/>
+                                        <string key="text">Beef with special sauce containing a high amount
 of coconut milk and Minangkabau secret spice.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Kt4-VK-E2r"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="csm-bZ-GMa" firstAttribute="centerX" secondItem="8KQ-29-KcP" secondAttribute="centerX" id="0ac-zP-eRx"/>
-                            <constraint firstItem="8KQ-29-KcP" firstAttribute="centerY" secondItem="oTg-pv-lza" secondAttribute="centerY" id="HO3-ND-rUq"/>
-                            <constraint firstItem="HFF-BE-Gcs" firstAttribute="centerX" secondItem="8KQ-29-KcP" secondAttribute="centerX" id="PpJ-CH-xdg"/>
-                            <constraint firstItem="8KQ-29-KcP" firstAttribute="centerX" secondItem="oTg-pv-lza" secondAttribute="centerX" id="bVC-Ty-QzG"/>
-                            <constraint firstItem="csm-bZ-GMa" firstAttribute="top" secondItem="8KQ-29-KcP" secondAttribute="bottom" constant="5" id="nEY-g4-J8w"/>
-                            <constraint firstItem="HFF-BE-Gcs" firstAttribute="top" secondItem="csm-bZ-GMa" secondAttribute="bottom" constant="4" id="zCW-Wh-7fk"/>
+                            <constraint firstItem="VV4-jw-fvp" firstAttribute="centerY" secondItem="oTg-pv-lza" secondAttribute="centerY" id="Cpp-6e-FWX"/>
+                            <constraint firstItem="VV4-jw-fvp" firstAttribute="centerX" secondItem="oTg-pv-lza" secondAttribute="centerX" id="mWP-pO-i1W"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -1375,7 +1372,7 @@ of coconut milk and Minangkabau secret spice.</string>
                                             <outlet property="menuImageView" destination="hdp-y2-LPq" id="jSK-WU-s3m"/>
                                             <outlet property="menunameLabel" destination="AnM-Y9-aJV" id="P0h-fX-g4u"/>
                                             <outlet property="priceLabel" destination="SRB-z4-BXD" id="aW4-RR-vev"/>
-                                            <segue destination="bCb-yW-VAK" kind="presentation" id="Lfn-Ce-sl6"/>
+                                            <segue destination="bCb-yW-VAK" kind="presentation" modalPresentationStyle="automatic" id="Lfn-Ce-sl6"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
