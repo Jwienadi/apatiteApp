@@ -322,7 +322,7 @@
                             </collectionView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d7Y-py-JEg">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="80"/>
-                                <color key="backgroundColor" name="Color"/>
+                                <color key="backgroundColor" name="ApatiteBlue"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="EWB-0w-AJ4"/>
@@ -1192,6 +1192,14 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DrJ-jP-Cwh">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="70"/>
+                                <color key="backgroundColor" name="ApatiteBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="390" id="DrJ-Qa-a6x"/>
+                                    <constraint firstAttribute="height" constant="70" id="gC4-rO-HTJ"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6sL-Yy-8R5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1200,7 +1208,10 @@
                             <constraint firstItem="pKx-pn-QpE" firstAttribute="leading" secondItem="2Nr-rx-zsU" secondAttribute="leading" constant="20" id="4cd-oI-H5o"/>
                             <constraint firstItem="6sL-Yy-8R5" firstAttribute="trailing" secondItem="bLt-RF-vBH" secondAttribute="trailing" constant="31" id="6ra-NU-nKl"/>
                             <constraint firstItem="6sL-Yy-8R5" firstAttribute="bottom" secondItem="bLt-RF-vBH" secondAttribute="bottom" id="Smj-jm-BlC"/>
+                            <constraint firstItem="DrJ-jP-Cwh" firstAttribute="top" secondItem="2Nr-rx-zsU" secondAttribute="top" id="U5z-Pz-ODV"/>
+                            <constraint firstItem="DrJ-jP-Cwh" firstAttribute="leading" secondItem="2Nr-rx-zsU" secondAttribute="leading" id="Zkw-Fg-2CD"/>
                             <constraint firstItem="bLt-RF-vBH" firstAttribute="leading" secondItem="6sL-Yy-8R5" secondAttribute="leading" constant="31" id="eAk-9j-m9y"/>
+                            <constraint firstAttribute="trailing" secondItem="DrJ-jP-Cwh" secondAttribute="trailing" id="kiA-9Z-iux"/>
                             <constraint firstItem="bLt-RF-vBH" firstAttribute="top" secondItem="pKx-pn-QpE" secondAttribute="bottom" constant="10" id="uPA-LZ-8aK"/>
                         </constraints>
                     </view>
@@ -1235,12 +1246,13 @@
         <!--Discover-->
         <scene sceneID="Vdc-ds-hhn">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="CBK-YU-9mC" customClass="DiscoverNavigationController" customModule="Apatite" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="CBK-YU-9mC" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Discover" image="magnifyingglass" catalog="system" id="MNS-RM-BJy"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="28v-76-bfu">
                         <rect key="frame" x="0.0" y="44" width="390" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="ApatiteBlue"/>
                         <color key="barTintColor" name="ApatiteBlue"/>
                         <textAttributes key="largeTitleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1645,7 +1657,7 @@ pk. 00.00 - 06.00 WIB</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="xdb-wX-2Ox"/>
+        <segue reference="uJd-Yh-Lyb"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="WarungUniverse" width="1025" height="1536"/>
