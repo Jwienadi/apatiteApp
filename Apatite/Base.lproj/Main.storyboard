@@ -936,7 +936,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z39-eq-O8E" userLabel="Review Card 1">
                                                 <rect key="frame" x="20" y="549" width="350" height="119"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="s8c-3y-9gy">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="173456298_556687508644401_6965410515830721326_n" translatesAutoresizingMaskIntoConstraints="NO" id="s8c-3y-9gy">
                                                         <rect key="frame" x="10" y="10" width="50" height="50"/>
                                                         <color key="backgroundColor" red="0.84707027670000001" green="0.84703820939999996" blue="0.84705996510000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="tintColor" systemColor="labelColor"/>
@@ -1019,7 +1019,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hc1-Qq-6vg" userLabel="Review Card 2">
                                                 <rect key="frame" x="20" y="673" width="350" height="119"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XnE-8c-yaX">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="75107616_221007512630842_6739774300098205231_n" translatesAutoresizingMaskIntoConstraints="NO" id="XnE-8c-yaX">
                                                         <rect key="frame" x="10" y="10" width="50" height="50"/>
                                                         <color key="backgroundColor" red="0.84707027670000001" green="0.84703820939999996" blue="0.84705996510000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
@@ -1321,7 +1321,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="imq-Gr-8N0" customClass="DiscoverViewController" customModule="Apatite" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Nr-rx-zsU">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pKx-pn-QpE">
@@ -1558,7 +1558,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="VV4-jw-fvp">
                                 <rect key="frame" x="46.666666666666657" y="209.99999999999997" width="297" height="370.33333333333326"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foodMenu1" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8KQ-29-KcP">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WarungUniverseMenu4" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8KQ-29-KcP">
                                         <rect key="frame" x="0.0" y="0.0" width="297" height="293"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="293" id="7QB-8l-Bjx"/>
@@ -2012,6 +2012,8 @@ pk. 00.00 - 06.00 WIB</string>
         <segue reference="xdb-wX-2Ox"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="173456298_556687508644401_6965410515830721326_n" width="640" height="640"/>
+        <image name="75107616_221007512630842_6739774300098205231_n" width="640" height="640"/>
         <image name="WarungUniverse" width="1025" height="1536"/>
         <image name="WarungUniverse1" width="1024" height="684"/>
         <image name="WarungUniverse2" width="1024" height="684"/>
@@ -2026,7 +2028,6 @@ pk. 00.00 - 06.00 WIB</string>
         <image name="car" catalog="system" width="128" height="93"/>
         <image name="defaultAvatar" width="225" height="225"/>
         <image name="figure.stand.line.dotted.figure.stand" catalog="system" width="128" height="83"/>
-        <image name="foodMenu1" width="2000" height="2000"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="onBoard1" width="813" height="787"/>
         <image name="onBoard2" width="813" height="787"/>
