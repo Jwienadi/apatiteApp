@@ -1290,6 +1290,9 @@
                                 <action selector="backButton:" destination="WpA-mq-JUR" id="KDh-wd-WtG"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="bookmark.fill" catalog="system" id="sZB-rX-ydx">
+                            <color key="tintColor" name="ApatiteBlue"/>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LEw-xs-G4q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
